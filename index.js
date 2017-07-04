@@ -10,7 +10,13 @@ const imdbApiUrl = (title) => {
 }
 
 const ratingTextRegex = /Rating:\s(\d(?:\.\d)?)\/10/;
-
+const stats = {
+  found: 0,
+  notFound: 0,
+  notAMovie: 0,
+  noRating: 0,
+  tooFewVotes: 0
+}
 const getAllMoviesRatingData = () => {
   let index = 0;
   const ratings = [];
@@ -33,9 +39,22 @@ const getAllMoviesRatingData = () => {
           .then((rawResponse) => {
             const response = JSON.parse(rawResponse);
             if (response.Error) {
-              console.log(`Could not find info for ${title}`);
+              stats.notFound++;
               return;
             }
+            if (response.Type !== 'movie') {
+              stats.notAMovie++;
+              return;
+            }
+            if (response.imdbRating === 'N/A') {
+              stats.noRating++;
+              return;
+            }
+            if (response.imdbVotes < 25) {
+              stats.tooFewVotes++;
+              return;
+            }
+            stats.found++;
             const rating = {
               title,
               rating: response.imdbRating
@@ -47,11 +66,7 @@ const getAllMoviesRatingData = () => {
           })
       );
     }
-    requestPromises.push(
-      new Promise((resolve, reject) => {
-        setTimeout(resolve, 200);
-      })
-    );
+
     return Promise.all(requestPromises)
       .then(getMovieRatingData);
   }
@@ -59,6 +74,21 @@ const getAllMoviesRatingData = () => {
 }
 
 getAllMoviesRatingData()
+  .then(ratings => {
+    console.log(`Completed.\n${stats.found} ratings found\n${stats.notFound} movies could not be found\n${stats.notAMovie} items were not movies\n${stats.noRating} items had no rating\n${stats.tooFewVotes} items had too few votes (<25) to be counted`);
+    return ratings;
+  })
+  .then(ratings => {
+    return ratings.sort((a, b) => {
+      if (a.rating < b.rating ) {
+        return -1;
+      }
+      if (b.rating < a.rating ) {
+        return 1;
+      }
+      return 0;
+    });
+  })
   .then(ratings => {
     const text = ratings.reduce((accumulator, rating) => {
       accumulator += `${rating.title}\t${rating.rating}\n`;
@@ -71,5 +101,4 @@ getAllMoviesRatingData()
       }
       console.log(`Wrote all review data to file ${fileName}`);
     });
-    console.log(ratings);
-  })
+  });
