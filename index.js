@@ -10,13 +10,34 @@ const imdbApiUrl = (title) => {
 }
 
 const ratingTextRegex = /Rating:\s(\d(?:\.\d)?)\/10/;
+
 const stats = {
   found: 0,
   notFound: 0,
   notAMovie: 0,
   noRating: 0,
-  tooFewVotes: 0
+  notPopularEnough: 0
+};
+
+const votesRequired = 10000;
+const boxOfficeWinnings = 150000;
+
+const boxOfficeDataFixed = (boxOffice) => {
+  if (boxOffice === 'N/A') {
+    return 0;
+  }
+  return new Number(boxOffice.replace(/[$\,]/g, ''));
 }
+
+const movieIsPopularEnough = (movie) => {
+  const hasEnoughVotes = movie.imdbVotes.replace(',', '') > votesRequired;
+  let madeEnoughMoneyAtBoxOffice = false;
+  if (boxOfficeDataFixed(movie.BoxOffice) > 10000) {
+    madeEnoughMoneyAtBoxOffice = true;
+  }
+  return hasEnoughVotes || madeEnoughMoneyAtBoxOffice;
+}
+
 const getAllMoviesRatingData = () => {
   let index = 0;
   const ratings = [];
@@ -50,19 +71,21 @@ const getAllMoviesRatingData = () => {
               stats.noRating++;
               return;
             }
-            if (response.imdbVotes < 25) {
-              stats.tooFewVotes++;
+            if (!movieIsPopularEnough(response)) {
+              stats.notPopularEnough++;
               return;
             }
             stats.found++;
             const rating = {
               title,
-              rating: response.imdbRating
+              rating: response.imdbRating,
+              genre:  response.Genre
             }
             ratings.push(rating);
           })
           .catch(error => {
             console.log(`There was an error while making a request for ${title}`);
+            console.error(error);
           })
       );
     }
@@ -75,7 +98,7 @@ const getAllMoviesRatingData = () => {
 
 getAllMoviesRatingData()
   .then(ratings => {
-    console.log(`Completed.\n${stats.found} ratings found\n${stats.notFound} movies could not be found\n${stats.notAMovie} items were not movies\n${stats.noRating} items had no rating\n${stats.tooFewVotes} items had too few votes (<25) to be counted`);
+    console.log(`Completed.\n${stats.found} ratings found\n${stats.notFound} movies could not be found\n${stats.notAMovie} items were not movies\n${stats.noRating} items had no rating\n${stats.notPopularEnough} items was not popular enough to be counted (did not have enough rating votes for box office presence)`);
     return ratings;
   })
   .then(ratings => {
@@ -86,12 +109,18 @@ getAllMoviesRatingData()
       if (b.rating < a.rating ) {
         return 1;
       }
+      if (a.title < b.title ) {
+        return -1;
+      }
+      if (b.title < a.title ) {
+        return 1;
+      }
       return 0;
     });
   })
   .then(ratings => {
     const text = ratings.reduce((accumulator, rating) => {
-      accumulator += `${rating.title}\t${rating.rating}\n`;
+      accumulator += `${rating.title}\t${rating.rating}\t${rating.genre}\n`;
       return accumulator;
     }, '');
     const fileName = `${__dirname}/output/data.tsv`;
