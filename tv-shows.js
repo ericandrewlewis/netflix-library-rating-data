@@ -1,6 +1,12 @@
 const fs = require('fs');
 const requestAsync = require('request-promise');
-const tvShowData = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/TV-Shows`, 'utf8').split('\n');
+const getTvShowData = () => {
+  let tvShows = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/TV-Shows`, 'utf8').split('\n');
+  let netflixOriginals = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/Netflix-Originals`, 'utf8').split('\n');
+  tvShows = Array.from(new Set([...tvShows, ...netflixOriginals]));
+  return tvShows;
+}
+const tvShowData = getTvShowData();
 
 const imdbApiUrl = (title) => {
   return `http://www.omdbapi.com/?t=${encodeURIComponent(title)}&apikey=${process.env.OMDB_API_KEY}`;
