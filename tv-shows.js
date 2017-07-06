@@ -16,7 +16,7 @@ const stats = {
   notPopularEnough: 0
 };
 
-const votesRequired = 10000;
+const votesRequired = 5000;
 
 const movieIsPopularEnough = (movie) => {
   const hasEnoughVotes = movie.imdbVotes.replace(',', '') > votesRequired;
