@@ -135,4 +135,15 @@ getAllMoviesRatingData()
       }
       console.log(`Wrote all review data to file ${fileName}`);
     });
+    return ratings;
+  })
+  .then(ratings => {
+    const text = `module.exports = ${JSON.stringify(ratings, null, 2)}`;
+    const fileName = `${__dirname}/output/movies.js`;
+    fs.writeFile(fileName, text, (err) => {
+      if(err) {
+        return console.log(err);
+      }
+      console.log(`Wrote all review data to file ${fileName}`);
+    });
   });
