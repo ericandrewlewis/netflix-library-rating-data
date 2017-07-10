@@ -1,10 +1,10 @@
 const fs = require('fs');
 const requestAsync = require('request-promise');
+const tvShows = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/TV-Shows`, 'utf8').split('\n');
+const netflixOriginals = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/Netflix-Originals`, 'utf8').split('\n');
+
 const getTvShowData = () => {
-  let tvShows = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/TV-Shows`, 'utf8').split('\n');
-  let netflixOriginals = fs.readFileSync(`${__dirname}/node_modules/netflix-library-crawler/output/Netflix-Originals`, 'utf8').split('\n');
-  tvShows = Array.from(new Set([...tvShows, ...netflixOriginals]));
-  return tvShows;
+  return Array.from(new Set([...tvShows, ...netflixOriginals]));
 }
 const tvShowData = getTvShowData();
 
@@ -67,10 +67,14 @@ const getAllTVShowsRatingData = () => {
               return;
             }
             stats.found++;
+            let genre = response.Genre;
+            if (netflixOriginals.indexOf(title) > -1) {
+              genre += ', Netflix Originals';
+            }
             const rating = {
               title,
               rating: response.imdbRating,
-              genre:  response.Genre
+              genre
             }
             ratings.push(rating);
           })

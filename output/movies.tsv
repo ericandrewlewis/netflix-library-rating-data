@@ -2,9 +2,9 @@ Beginning of the Great Revival	2.4	Drama, History
 Celal and Ceren	2.5	Comedy, Romance
 Catwoman	3.3	Action, Crime, Fantasy
 Sharknado	3.3	Comedy, Horror, Sci-Fi
-A Matter of Faith	3.4	Drama
 Standing Ovation	3.4	Musical
 Yamla Pagla Deewana 2	3.4	Action, Comedy, Drama
+A Matter of Faith	3.5	Drama
 Besharam	3.6	Comedy, Romance
 Horrid Henry: The Movie	3.7	Adventure, Comedy, Family
 Mr. Magoo	3.9	Adventure, Comedy, Family
@@ -12,6 +12,7 @@ Recep Ivedik 4	3.9	Comedy
 The Canyons	3.9	Drama, Thriller
 The Disappointments Room	3.9	Drama, Horror, Thriller
 Are We Done Yet?	4.0	Comedy, Family, Fantasy
+Inspector Gadget	4.1	Action, Adventure, Comedy
 Recep Ivedik 3	4.1	Comedy
 Sharknado 2: The Second One	4.1	Horror, Sci-Fi
 The Hero of Color City	4.1	Animation, Family
@@ -39,7 +40,6 @@ High School Musical 2	4.8	Comedy, Drama, Family
 Prem Ratan Dhan Payo	4.8	Action, Drama, Musical
 Recep Ivedik	4.8	Comedy
 The Forest	4.8	Horror, Mystery, Thriller
-The Man in 3B	4.8	Mystery
 The Ridiculous 6	4.8	Comedy, Western
 The Unborn	4.8	Drama, Horror, Mystery
 When the Bough Breaks	4.8	Crime, Drama, Horror
@@ -47,10 +47,11 @@ Zombeavers	4.8	Comedy, Horror
 Boat Trip	4.9	Comedy
 David and Goliath	4.9	Action, Adventure, Drama
 Mothers and Daughters	4.9	Drama
-Scooby-Doo	4.9	Adventure, Comedy, Family
+The Man in 3B	4.9	Mystery
 Camp Rock	5.0	Comedy, Family, Music
 Extraterrestrial	5.0	Horror, Sci-Fi
 Rage	5.0	Action, Crime, Thriller
+Scooby-Doo	5.0	Animation, Adventure, Comedy
 Scooby-Doo 2: Monsters Unleashed	5.0	Animation, Adventure, Comedy
 Toys	5.0	Adventure, Comedy, Drama
 Welcome to the Jungle	5.0	Action, Adventure, Comedy
@@ -122,7 +123,6 @@ Meet the Blacks	5.6	Comedy, Horror
 Survivor	5.6	Action, Crime, Thriller
 The Abandoned	5.6	Horror, Mystery, Thriller
 The Benchwarmers	5.6	Action, Comedy, Family
-The Comedian	5.6	Comedy
 The Man with One Red Shoe	5.6	Comedy, Thriller
 The Numbers Station	5.6	Action, Thriller
 The Shrine	5.6	Horror
@@ -153,6 +153,7 @@ Son Of God	5.7	Biography, Drama, History
 Spa Night	5.7	Drama
 Tasting Menu	5.7	Comedy
 The Angriest Man in Brooklyn	5.7	Comedy, Drama
+The Comedian	5.7	Comedy
 The Do-Over	5.7	Action, Adventure, Comedy
 The Hallow	5.7	Horror
 The Lifeguard	5.7	Drama, Romance
@@ -228,6 +229,7 @@ Evolution	6.0	Comedy, Sci-Fi
 For a Good Time, Call...	6.0	Comedy
 How the Grinch Stole Christmas	6.0	Comedy, Family, Fantasy
 LUV	6.0	Crime, Drama
+Love	6.0	Drama, Romance
 Mojin: The Lost Legend	6.0	Action, Horror, Thriller
 Piglet's Big Movie	6.0	Animation, Adventure, Comedy
 Plastic	6.0	Action, Comedy, Crime
@@ -280,6 +282,8 @@ Ballet 422	6.2	Documentary, Music, Sport
 Being Charlie	6.2	Drama, Romance
 Chinese Zodiac	6.2	Action, Adventure
 Cuban Fury	6.2	Comedy, Romance, Sport
+Dead Silence	6.2	Horror, Thriller
+Dear White People	6.2	Comedy, Drama
 Disorder	6.2	Drama, Thriller
 Dough	6.2	Comedy, Drama
 Freedom	6.2	Drama, Music
@@ -490,8 +494,10 @@ These Final Hours	6.7	Drama, Sci-Fi, Thriller
 This Must Be the Place	6.7	Comedy, Drama
 Today's Special	6.7	Comedy
 Turbo Kid	6.7	Action, Adventure, Comedy
+Wet Hot American Summer	6.7	Comedy, Romance
 Your Sister's Sister	6.7	Comedy, Drama
 A Monster in Paris	6.8	Animation, Adventure, Comedy
+A Series of Unfortunate Events	6.8	Adventure, Comedy, Family
 As I Open My Eyes	6.8	Drama
 Atlantis: The Lost Empire	6.8	Animation, Action, Adventure
 Cheap Thrills	6.8	Comedy, Crime, Drama
@@ -647,6 +653,7 @@ Tinker, Tailor, Soldier, Spy	7.1	Drama, Mystery, Thriller
 Unthinkable	7.1	Drama, Thriller
 XXY	7.1	Drama, Romance
 10 Things I Hate About You	7.2	Comedy, Drama, Romance
+3%	7.2	Action, Adventure, Sci-Fi
 All Stars	7.2	Comedy, Drama, Sport
 August: Osage County	7.2	Drama
 Beginners	7.2	Comedy, Drama, Romance
@@ -731,11 +738,11 @@ A Street Cat Named Bob	7.4	Biography, Comedy, Drama
 Across the Universe	7.4	Drama, Fantasy, Musical
 Begin Again	7.4	Drama, Music
 Cartel Land	7.4	Documentary
-Cave of Forgotten Dreams	7.4	Documentary, History
 Corpse Bride	7.4	Animation, Drama, Family
 Death of a Gentleman	7.4	Documentary
 Detour	7.4	Crime, Drama, Film-Noir
 Dugun Dernek	7.4	Comedy
+Elaine Stritch: Shoot Me	7.4	Documentary
 Finding Dory	7.4	Animation, Adventure, Comedy
 Frances Ha	7.4	Comedy, Drama, Romance
 Gentleman's Agreement	7.4	Drama, Romance
@@ -772,7 +779,6 @@ Best in Show	7.5	Comedy
 Burn	7.5	Documentary
 Dirty Wars	7.5	Documentary, Crime, Drama
 Dust to Glory	7.5	Documentary, Action, Adventure
-Elaine Stritch: Shoot Me	7.5	Documentary
 Even the Rain	7.5	Drama, History
 Fruitvale Station	7.5	Biography, Drama, Romance
 Gallipoli	7.5	Adventure, Drama, History
@@ -848,6 +854,7 @@ Forks Over Knives	7.7	Documentary
 Indie Game: The Movie	7.7	Documentary, Drama
 Keep on Keepin' On	7.7	Documentary
 Love Actually	7.7	Comedy, Drama, Romance
+Madras Café	7.7	Action, Drama, History
 Midnight in Paris	7.7	Comedy, Fantasy, Romance
 Moana	7.7	Animation, Adventure, Comedy
 Mustang	7.7	Drama
@@ -874,7 +881,6 @@ Happy People: A Year in the Taiga	7.8	Documentary
 Life Itself	7.8	Documentary, Biography
 Lucky Number Slevin	7.8	Crime, Drama, Mystery
 M.S. Dhoni: The Untold Story	7.8	Biography, Drama, Sport
-Madras Café	7.8	Action, Drama, History
 Man on Wire	7.8	Documentary
 Moonrise Kingdom	7.8	Adventure, Comedy, Drama
 Mother	7.8	Crime, Drama, Mystery
@@ -893,7 +899,6 @@ Waking Life	7.8	Animation, Drama, Fantasy
 When Two Worlds Collide	7.8	Documentary
 Boyhood	7.9	Drama
 Captain America: Civil War	7.9	Action, Adventure, Sci-Fi
-Cocaine Cowboys	7.9	Documentary, Crime
 E.T. the Extra-Terrestrial	7.9	Family, Sci-Fi
 Ernest & Celestine	7.9	Animation, Comedy, Crime
 Food, Inc.	7.9	Documentary
@@ -907,6 +912,7 @@ Nightcrawler	7.9	Crime, Drama, Thriller
 Stray Dog	7.9	Crime, Drama, Mystery
 The African Queen	7.9	Adventure, Drama, Romance
 The Butterfly's Dream	7.9	Biography, Drama, History
+The Fall	7.9	Adventure, Comedy, Drama
 The Innocents	7.9	Horror
 Tiger	7.9	Action, Adventure, Fantasy
 Young@Heart	7.9	Documentary, Music

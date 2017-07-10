@@ -1,7 +1,7 @@
 The Secret Life of the American Teenager	5.0	Comedy, Drama, Family
 The Cleveland Show	5.6	Animation, Comedy
 Jessie	5.9	Comedy, Family
-Between	6.0	Drama, Mystery, Sci-Fi
+Between	6.0	Drama, Mystery, Sci-Fi, Netflix Originals
 90210	6.1	Comedy, Drama, Romance
 CSI: Miami	6.4	Action, Crime, Drama
 Mighty Morphin Power Rangers	6.4	Action, Adventure, Family
@@ -30,7 +30,7 @@ Yu-Gi-Oh!	7.0	Animation, Action, Adventure
 Zoo	7.0	Drama, Sci-Fi, Thriller
 Bitten	7.1	Drama, Fantasy, Horror
 Charmed	7.1	Drama, Fantasy, Mystery
-Fuller House	7.1	Comedy, Family
+Fuller House	7.1	Comedy, Family, Netflix Originals
 Happy Tree Friends	7.1	Animation, Comedy
 Low Winter Sun	7.1	Crime, Drama
 Quantico	7.1	Crime, Drama, Mystery
@@ -41,9 +41,9 @@ Army Wives	7.2	Drama, Romance, War
 Ascension	7.2	Drama, Sci-Fi
 Containment	7.2	Drama
 Girl Meets World	7.2	Comedy, Drama, Family
-Girlboss	7.2	Comedy
+Girlboss	7.2	Comedy, Netflix Originals
 H2O: Just Add Water	7.2	Adventure, Drama, Family
-Hemlock Grove	7.2	Horror, Mystery, Thriller
+Hemlock Grove	7.2	Horror, Mystery, Thriller, Netflix Originals
 Salem	7.2	Drama, Fantasy, Thriller
 The Catch	7.2	Crime, Drama, Thriller
 The Gates	7.2	Crime, Drama, Fantasy
@@ -53,7 +53,7 @@ Breakout Kings	7.3	Crime, Drama, Thriller
 Brickleberry	7.3	Animation, Comedy
 Colony	7.3	Action, Adventure, Drama
 Don't Trust the B---- in Apartment 23	7.3	Comedy
-Flaked	7.3	Comedy
+Flaked	7.3	Comedy, Netflix Originals
 The Batman	7.3	Animation, Action, Adventure
 The Tomorrow People	7.3	Action, Drama, Sci-Fi
 Wynonna Earp	7.3	Action, Drama, Fantasy
@@ -65,7 +65,7 @@ Drop Dead Diva	7.4	Comedy, Drama
 Gossip Girl	7.4	Drama, Romance
 Hawaii Five-0	7.4	Action, Crime, Drama
 Houdini	7.4	Biography, Drama
-Marcella	7.4	Crime, Drama, Thriller
+Marcella	7.4	Crime, Drama, Thriller, Netflix Originals
 Star-Crossed	7.4	Drama, Romance, Sci-Fi
 The 4400	7.4	Sci-Fi, Drama, Mystery
 The Secret Circle	7.4	Drama, Fantasy, Horror
@@ -89,7 +89,7 @@ Magic City	7.6	Crime, Drama
 Pretty Little Liars	7.6	Drama, Mystery, Romance
 Reign	7.6	Drama, Fantasy
 The L Word	7.6	Drama, Romance
-The Ranch	7.6	Comedy
+The Ranch	7.6	Comedy, Netflix Originals
 The Real Ghostbusters	7.6	Animation, Action, Comedy
 Todd Margaret	7.6	Comedy
 American Crime	7.7	Crime, Drama
@@ -105,7 +105,7 @@ New Girl	7.7	Comedy
 Nikita	7.7	Action, Crime, Drama
 Nurse Jackie	7.7	Comedy, Drama
 One Tree Hill	7.7	Drama, Romance, Sport
-Santa Clarita Diet	7.7	Comedy, Horror
+Santa Clarita Diet	7.7	Comedy, Horror, Netflix Originals
 The Finder	7.7	Comedy, Crime, Drama
 Video Game High School	7.7	Action, Romance, Sci-Fi
 Arrow	7.8	Action, Adventure, Crime
@@ -119,12 +119,13 @@ Schitt's Creek	7.8	Comedy
 Switched at Birth	7.8	Drama, Family, Romance
 The 100	7.8	Drama, Mystery, Sci-Fi
 The Chicago Code	7.8	Action, Crime, Drama
-The OA	7.8	Drama, Fantasy, Mystery
+The OA	7.8	Drama, Fantasy, Mystery, Netflix Originals
 The Paradise	7.8	Drama
 The Vampire Diaries	7.8	Drama, Fantasy, Horror
 Animaniacs	7.9	Animation, Comedy, Family
 Bones	7.9	Comedy, Crime, Drama
 Death in Paradise	7.9	Crime, Drama, Mystery
+Fresh Meat	7.9	Comedy, Drama
 InuYasha	7.9	Animation, Action, Adventure
 Leverage	7.9	Crime, Mystery, Thriller
 Merlin	7.9	Adventure, Drama, Fantasy
@@ -134,39 +135,38 @@ Revenge	7.9	Drama, Mystery, Thriller
 Riverdale	7.9	Crime, Drama, Mystery
 Sword Art Online	7.9	Animation, Action, Adventure
 The Borgias	7.9	Crime, Drama, History
-Unbreakable Kimmy Schmidt	7.9	Comedy, Drama
+Unbreakable Kimmy Schmidt	7.9	Comedy, Drama, Netflix Originals
 Versailles	7.9	Biography, Drama, History
 Wallander	7.9	Crime, Drama, Mystery
 Burn Notice	8.0	Action, Crime, Drama
-F is for Family	8.0	Animation, Comedy, Drama
+F is for Family	8.0	Animation, Comedy, Drama, Netflix Originals
 Frasier	8.0	Comedy
-Fresh Meat	8.0	Comedy, Drama
-Gilmore Girls: A Year in the Life	8.0	Comedy, Drama
+Gilmore Girls: A Year in the Life	8.0	Comedy, Drama, Netflix Originals
 Jericho	8.0	Action, Drama, Mystery
 Kill la Kill	8.0	Animation, Action, Comedy
 Lie to Me	8.0	Crime, Drama, Mystery
 Malcolm in the Middle	8.0	Comedy
-Medici: Masters of Florence	8.0	Biography, Drama, History
+Medici: Masters of Florence	8.0	Biography, Drama, History, Netflix Originals
 Phineas and Ferb	8.0	Animation, Action, Comedy
 Raising Hope	8.0	Comedy, Family
 TURN: Washington's Spies	8.0	Drama, War
 The Bletchley Circle	8.0	Crime, Drama, Mystery
 The Fosters	8.0	Drama, Romance
 The Magic School Bus	8.0	Animation, Adventure, Comedy
-Travelers	8.0	Sci-Fi
+Travelers	8.0	Sci-Fi, Netflix Originals
 Weeds	8.0	Comedy, Crime, Drama
 iZombie	8.0	Comedy, Crime, Drama
 Damages	8.1	Crime, Drama, Mystery
-Derek	8.1	Comedy, Drama
+Derek	8.1	Comedy, Drama, Netflix Originals
 Galavant	8.1	Adventure, Comedy, Fantasy
 Into the Badlands	8.1	Action, Adventure, Drama
 Law & Order: Special Victims Unit	8.1	Crime, Drama, Mystery
-Lilyhammer	8.1	Comedy, Crime, Drama
-Lovesick	8.1	Comedy
-Marco Polo	8.1	Adventure, Drama, History
+Lilyhammer	8.1	Comedy, Crime, Drama, Netflix Originals
+Lovesick	8.1	Comedy, Netflix Originals
+Marco Polo	8.1	Adventure, Drama, History, Netflix Originals
 Murdoch Mysteries	8.1	Crime, Drama, Mystery
 Ripper Street	8.1	Crime, Drama, Mystery
-River	8.1	Crime, Drama
+River	8.1	Crime, Drama, Netflix Originals
 That '70s Show	8.1	Comedy, Romance
 The Blacklist	8.1	Crime, Drama, Mystery
 The Flash	8.1	Action, Adventure, Drama
@@ -176,15 +176,15 @@ American Horror Story	8.2	Drama, Horror, Thriller
 Bates Motel	8.2	Drama, Horror, Mystery
 Better Off Ted	8.2	Comedy
 Bleach	8.2	Animation, Action, Adventure
-Bloodline	8.2	Drama, Thriller
+Bloodline	8.2	Drama, Thriller, Netflix Originals
 Criminal Minds	8.2	Crime, Drama, Mystery
 Fairy Tail	8.2	Animation, Action, Adventure
-Grace and Frankie	8.2	Comedy
+Grace and Frankie	8.2	Comedy, Netflix Originals
 Naruto	8.2	Animation, Action, Adventure
-Orange Is the New Black	8.2	Comedy, Crime, Drama
+Orange Is the New Black	8.2	Comedy, Crime, Drama, Netflix Originals
 Penny Dreadful	8.2	Drama, Fantasy, Horror
 The Black Donnellys	8.2	Crime, Drama
-The Killing	8.2	Crime, Drama, Mystery
+The Killing	8.2	Crime, Drama, Mystery, Netflix Originals
 The Returned	8.2	Drama, Fantasy, Horror
 An Idiot Abroad	8.3	Documentary, Adventure, Comedy
 Doc Martin	8.3	Comedy, Drama
@@ -193,18 +193,18 @@ Halt and Catch Fire	8.3	Drama
 Heartland	8.3	Drama, Family
 Hell on Wheels	8.3	Drama, Western
 How to Get Away with Murder	8.3	Crime, Drama, Mystery
-Longmire	8.3	Action, Crime, Drama
-Master of None	8.3	Comedy
+Longmire	8.3	Action, Crime, Drama, Netflix Originals
+Master of None	8.3	Comedy, Netflix Originals
 Queer as Folk	8.3	Drama, Romance
 The Andy Griffith Show	8.3	Comedy, Family
 The Guild	8.3	Comedy
-The Last Kingdom	8.3	Action, History, Romance
+The Last Kingdom	8.3	Action, History, Romance, Netflix Originals
 The League	8.3	Comedy, Sport
 The Originals	8.3	Drama, Fantasy, Horror
 The Wonder Years	8.3	Comedy, Drama, Family
 White Collar	8.3	Comedy, Crime, Drama
 Blue Mountain State	8.4	Comedy, Sport
-BoJack Horseman	8.4	Animation, Comedy, Drama
+BoJack Horseman	8.4	Animation, Comedy, Drama, Netflix Originals
 Broadchurch	8.4	Crime, Drama, Mystery
 Call the Midwife	8.4	Drama
 Extras	8.4	Comedy, Drama
@@ -215,21 +215,21 @@ How I Met Your Mother	8.4	Comedy, Romance
 Miss Fisher's Murder Mysteries	8.4	Crime, Drama, Mystery
 Ouran High School Host Club	8.4	Animation, Comedy, Romance
 Rectify	8.4	Drama
-Sense8	8.4	Drama, Mystery, Sci-Fi
+Sense8	8.4	Drama, Mystery, Sci-Fi, Netflix Originals
 Terriers	8.4	Crime, Drama, Mystery
 The Dick Van Dyke Show	8.4	Comedy, Family
-The Get Down	8.4	Drama, Music, Musical
+The Get Down	8.4	Drama, Music, Musical, Netflix Originals
 The Inbetweeners	8.4	Comedy
-Trailer Park Boys	8.4	Comedy, Crime
+Trailer Park Boys	8.4	Comedy, Crime, Netflix Originals
 Ezel	8.5	Crime, Drama, Mystery
 Futurama	8.5	Animation, Comedy, Sci-Fi
 Generation War	8.5	Action, Drama, History
-Happy Valley	8.5	Crime, Drama
+Happy Valley	8.5	Crime, Drama, Netflix Originals
 Mushi-Shi	8.5	Animation, Drama, Fantasy
 Person of Interest	8.5	Action, Crime, Drama
 Prison Break	8.5	Action, Crime, Drama
 Red vs. Blue	8.5	Animation, Action, Adventure
-13 Reasons Why	8.6	Drama, Mystery
+13 Reasons Why	8.6	Drama, Mystery, Netflix Originals
 Agatha Christie's Poirot	8.6	Drama, Mystery, Crime
 Black Books	8.6	Comedy
 Luther	8.6	Crime, Drama, Mystery
@@ -237,25 +237,25 @@ Mystery Science Theater 3000	8.6	Comedy, Sci-Fi
 Sons of Anarchy	8.6	Crime, Drama, Thriller
 Supernatural	8.6	Drama, Fantasy, Horror
 When Calls the Heart	8.6	Drama
+Archer	8.7	Animation, Action, Comedy
 Better Call Saul	8.7	Crime, Drama
-Chef's Table	8.7	Documentary
+Chef's Table	8.7	Documentary, Netflix Originals
 Top Gear	8.7	Comedy, Talk-Show
-Archer	8.8	Animation, Action, Comedy
 Attack on Titan	8.8	Animation, Action, Adventure
 Behzat Ç	8.8	Crime, Drama, Mystery
 Dexter	8.8	Crime, Drama, Mystery
 Fawlty Towers	8.8	Comedy
-Making a Murderer	8.8	Documentary, Crime
+Making a Murderer	8.8	Documentary, Crime, Netflix Originals
 North & South	8.8	Drama, Romance
-Peaky Blinders	8.8	Crime, Drama
-The Crown	8.8	Drama, History
-Arrested Development	8.9	Comedy
-Black Mirror	8.9	Drama, Sci-Fi, Thriller
-Narcos	8.9	Biography, Crime, Drama
-Stranger Things	8.9	Drama, Fantasy, Horror
+Peaky Blinders	8.8	Crime, Drama, Netflix Originals
+The Crown	8.8	Drama, History, Netflix Originals
+Arrested Development	8.9	Comedy, Netflix Originals
+Black Mirror	8.9	Drama, Sci-Fi, Thriller, Netflix Originals
+Narcos	8.9	Biography, Crime, Drama, Netflix Originals
+Stranger Things	8.9	Drama, Fantasy, Horror, Netflix Originals
 Death Note	9.0	Animation, Crime, Drama
 Frozen Planet	9.0	Documentary
-House of Cards	9.0	Drama
+House of Cards	9.0	Drama, Netflix Originals
 Africa	9.1	Documentary
 Human Planet	9.1	Documentary
 One-Punch Man	9.1	Animation, Action, Comedy
